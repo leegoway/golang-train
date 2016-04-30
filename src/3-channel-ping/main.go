@@ -25,7 +25,7 @@ func main() {
 	var c chan string = make(chan string, 2)
 
 	go pinger(1, c)
-    go printer(c)
+	go printer(c)
 
 	var input string
 	fmt.Scanln(&input)
