@@ -1,3 +1,6 @@
+/*
+ * 协程之间通信依靠共享channel
+ */
 package main
 
 import (
