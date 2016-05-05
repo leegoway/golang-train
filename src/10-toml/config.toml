@@ -1,0 +1,21 @@
+# This is a TOML document
+
+title = "My service"
+
+[owner]
+name = "huaizhi.li"
+organization = "github"
+
+[redis]
+host = "127.0.0.1"
+ports = [6379, 6380]
+enabled = true
+
+[songs]
+  [songs.song1]
+  	name = "默"
+  	author = "谢娜"
+
+  [songs.song2]
+    name = "类似爱情"
+    author = "萧亚轩"
