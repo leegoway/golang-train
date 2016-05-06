@@ -17,6 +17,8 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	fmt.Println(string(data)) //转换为string输出
+	fmt.Println(data)         //二进制输出
 
 	output := make(map[string]interface{})
 	err = json.Unmarshal(data, &output)
